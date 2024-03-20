@@ -21,7 +21,7 @@
 
 <!-- bootstrap columns -->
     <!-- <div class="container">  ; left:20px -->
-    <div class="col" style="position: relative; top: 70px">
+    <div class="col" style="position: relative; top: 50px">
       <!-- big text inside page -->
       <div class="w-100"></div>
       <p class= "description">
@@ -30,7 +30,7 @@
     </div>
     
 <!-- box1 ; left: 2px -->
-        <div class="col" style="position: relative; top: 100px">
+        <div class="col" style="position: relative; top: 70px">
           <!-- bootstrap card light mb3 -->
           <div class="card bg-light mb-3" style="max-width: 80rem;">
             <div class="card-header">
@@ -56,31 +56,44 @@
         </div>        
       </div>
 
-    <div class="col" style="position: relative; top: 70px">
-      <!-- big text inside page -->
-      <div class="w-100"></div>
-      <p class= "description">
-        Still lost?
-      </p>
-    </div>
+      <div class="col" style="position: relative; top: 120px">
+          <!-- bootstrap card light mb3 -->
+          <div class="card bg-light mb-3" style="max-width: 80rem;">
+            <div class="card-header">
+              UnDirections
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Random Selection</h5>
+              <p>
+                <script>
+                  var sites = [
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22eOcdnDxPrWCQi0-rlSoN3H',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22e2z4FtPh399usvEhHFadI-',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22ee1HTK_GUlREMmNjB_1cmz',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22frddJlyZKhFsPbr1WJ0wIW',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22dB2LO-hjHSh4SH4F5QYbR2',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22eozYKtrfjr4alohEkO6650',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22dFF0xSMVO-EdlFkbwzI3io',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22dCOVtuDfvIEUeqTD1G1ItQ',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22cX_igYNYlJZFcn3M6wsmQD',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22dANnE6AAT9As3xZPPrTCh7',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22ee-7q4YPC1Md7ogZiQlXeN',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22c2VcwnEpwQRESH9ea6r3ly',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22fCVgsI6PyMRuWHdPyHhepY',
+                    'https://www.youtube.com/playlist?list=PLhebCGicZ22c9Ks_Twf7Lnn9FJs8KZKo8'
+                  ];
 
+                  function randomSite() {
+                    var i = parseInt(Math.random() * sites.length);
+                    location.href = sites[i];
+                  }
+              </script>
+              <a href="#" onclick="randomSite();">Random Series</a>
+              </p>
+            </div>
+          </div>
+        </div>
     
-    <script>
-      var sites = [
-        'http://www.google.com',
-        'http://www.stackoverflow.com',
-        'http://www.example.com',
-        'http://www.youtube.com'
-      ];
-
-      function randomSite() {
-        var i = parseInt(Math.random() * sites.length);
-        location.href = sites[i];
-    }
-    </script>
-    <a href="#" onclick="randomSite();">Random</a>
-
-  
       <div class="col" style="position: relative; top: 100px;">
         <div><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.googleusercontent.com%2F5a3h8OAWb3pCfFz1EsJNBVzg2BH_kgrJozCCQ1PccZ5fCKdNHaJc1rpmx3NelsdXLDqWaxsy9w%3Dw2560-fcrop64%3D1%2C00005a57ffffa5a8-k-c0xffffffff-no-nd-rj&f=1&nofb=1&ipt=51ab22cb753a38b86b729d1e2253b1de24ffb062f9a6bf02db72475fcb3f7bbb&ipo=images" width="100%" height="70%"></div>
         </div>
