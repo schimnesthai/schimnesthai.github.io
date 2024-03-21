@@ -90,6 +90,21 @@
               </script>
               <a href="#" onclick="randomSite();">Random Series</a>
               </p>
+              <p>
+                <script>
+                  var sites = [
+                    'https://youtube.com/playlist?list=PLniwrQx2cRpOB68Ez0DXkO2-v3meFIize&si=FeYy3-7a4ldgu_ry',
+                    'https://youtube.com/playlist?list=PLniwrQx2cRpOB68Ez0DXkO2-v3meFIize&si=FeYy3-7a4ldgu_ry',
+                    'https://youtube.com/playlist?list=PLniwrQx2cRpOB68Ez0DXkO2-v3meFIize&si=FeYy3-7a4ldgu_ry'
+                  ];
+
+                  function randomSite() {
+                    var i = parseInt(Math.random() * sites.length);
+                    location.href = sites[i];
+                  }
+              </script>
+              <a href="#" onclick="randomSite();">Random YTP</a>
+              </p>
             </div>
           </div>
         </div>
